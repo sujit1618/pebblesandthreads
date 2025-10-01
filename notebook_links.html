@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pebbles & Threads - Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat font import -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #f9f9f9;
+            font-family: 'Montserrat', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .profile {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .profile img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #e0e0e0;
+        }
+        .profile h1 {
+            margin: 0 0 8px 0;
+            font-size: 1.5rem;
+            color: #333;
+            font-family: Georgia, serif, system-ui;
+        }
+        .links {
+            width: 100%;
+            max-width: 340px;
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        .link-btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            background: #fff;
+            color: #222;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s, border 0.2s, color 0.2s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            font-family: 'Montserrat', Arial, sans-serif;
+        }
+        .link-btn:hover {
+            background: #f0f0f0;
+            border-color: #bdbdbd;
+            color: #0077b6;
+        }
+        .profile p {
+            font-family: 'Montserrat', Arial, sans-serif;
+        }
+        /* Use Georgia for all headings */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Georgia, serif, system-ui;
+        }
+        @media (max-width: 400px) {
+            .links {
+                max-width: 95vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="https://placehold.co/96x96" alt="Pebbles & Threads Logo">
+        <h1>Pebbles & Threads</h1>
+        <p>Find us online!</p>
+    </div>
+    <div class="links">
+        <a class="link-btn" href="https://www.instagram.com/yourusername" target="_blank" rel="noopener">Instagram</a>
+        <a class="link-btn" href="https://www.facebook.com/yourusername" target="_blank" rel="noopener">Facebook</a>
+        <a class="link-btn" href="https://yourshop.com" target="_blank" rel="noopener">Online Shop</a>
+    </div>
+</body>
+</html>
