@@ -6,6 +6,96 @@
     <title>Document</title>
 </head>
 <body>
-    <h2 style="font-family: Georgia;">Welcome to Pebbles & Threads</h2>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #3d3d3b;
+        background-color: #f5f1ed;
+    }
+    header {
+        background: linear-gradient(135deg, #f5f4ef 0%, #8b7355 100%);
+        color: #f5f4ef;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    h2 {
+        font-family: Georgia !important;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #382e0b;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .tagline {
+        font-size: 1.2em;
+        opacity: 0.95;
+        color: #faf8f3;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        padding: 60px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .product-card {
+        background: #faf8f3;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(107, 114, 128, 0.15);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        border-left: 4px solid #d4af37;
+    }
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(212, 175, 55, 0.2);
+    }
+    .product-card h3 {
+        margin: 15px 0;
+        color: #8b7355;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+    }
+    .product-card p {
+        text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.05);
+    }
+    footer {
+        background: #f5f4ef;
+        color: #3f3f3f;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    }
+</style>
+<header>
+    <h2>Pebbles & Threads</h2>
+    <p class="tagline">Premium notebooks designed for creative minds</p>
+</header>
+<section class="products">
+    <div class="product-card">
+        <h3>Sketch Collection</h3>
+        <p>High-quality paper perfect for sketching and illustrations</p>
+    </div>
+    <div class="product-card">
+        <h3>Lined Elegance</h3>
+        <p>Smooth writing experience with premium lined pages</p>
+    </div>
+    <div class="product-card">
+        <h3>Grid Canvas</h3>
+        <p>Grid notebooks ideal for planning and technical sketches</p>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2026 Pebbles & Threads. Designed for creative professionals.</p>
+</footer>
 </body>
 </html>
