@@ -7,7 +7,7 @@ Live website: [pebblesandthreads.com](https://pebblesandthreads.com/)
 ## Run locally
 
 ```bash
-python3 -m http.server 8080 --directory dist
+python3 -m http.server 8080 --directory .
 ```
 
 Open `http://localhost:8080`.
@@ -19,6 +19,4 @@ Open `http://localhost:8080`.
 - `script.js` — navigation, reveal, medium demo, edition preview and accordion interactions
 - `assets/images/` — supplied Pebbles & Threads product photography
 - `research-and-requirements.md` — competitive research and implementation requirements
-- `dist/` — production-ready static build used for deployment
-
 The two purchase buttons link directly to their matching Amazon India product listings. GitHub Pages serves the production files from the repository root, with the custom domain retained through `CNAME`.
