@@ -2,7 +2,7 @@
 
 A responsive product website for the Pebbles & Threads Prime Series notebook, built with vanilla HTML, CSS and JavaScript.
 
-Live website: [pebblesandthreads.com](https://pebblesandthreads.com/)
+Live website: [pebblesandthreads.com](https://www.pebblesandthreads.com/)
 
 ## Run locally
 
